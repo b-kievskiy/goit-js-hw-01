@@ -1,8 +1,8 @@
 'use strict';
 
 let input;
-let total = 0;
-let plus = true;
+const total = 0;
+const plus = true;
 
 while(plus) {
     input = prompt('Введите значение');

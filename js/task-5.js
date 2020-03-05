@@ -1,6 +1,6 @@
 'use strict';
 
-let isInput = prompt('Выберите вашу страну для доставки: ')
+const isInput = prompt('Выберите вашу страну для доставки: ')
  
 if (isInput !== null) {
     isInput = isInput.toLowerCase();

@@ -1,17 +1,9 @@
-"use strict";
+'use strict';
 
+let name = "«Генератор защитного поля»";
+let price = "1000";
 
-// do {
-//     console.log("hello world");
-// } while (i < 20);
+console.log(`Выбран ${name}, цена за штуку ${price} кредитов`);
+price = "2000";
 
-// while (i < 20) {
-//     console.log("hello world");
-// }
-
-// console.log("after while");
-
-for (let i = 0; i < 10; i = i +1) {
-    console.log("hello world", i);
-}
-
+console.log(`Выбран ${name}, цена за штуку ${price} кредитов`);

@@ -2,8 +2,9 @@
 
 let input;
 let total = 0;
+let plus = true;
 
-while() {
+while(plus) {
     input = prompt('Введите значение');
     if (input){
         total += Number(input);
